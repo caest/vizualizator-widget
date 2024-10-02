@@ -1,0 +1,64 @@
+@import 'fonts';
+@import 'reset';
+  
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 48px;
+
+  }
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-carousel .slick-prev::after, :where(.css-dev-only-do-not-override-14i19y2).ant-carousel .slick-next::after {
+  box-sizing: border-box;
+  position: absolute;
+  top: 2.3431457505076203px;
+  inset-inline-start: -30px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 0 solid currentcolor;
+  border-inline-width: 2px 0;
+  border-block-width: 2px 0;
+  border-radius: 1px;
+  content: "";
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-carousel .slick-prev {
+  inset-inline-start: 60px;
+}
+
+:where(.css-dev-only-do-not-override-14i19y2).ant-carousel .slick-prev, :where(.css-dev-only-do-not-override-14i19y2).ant-carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  color: #fff;
+  opacity: 1 !important; 
+  background: transparent;
+  padding: 0px;
+  line-height: 0;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  z-index: 1;
+  transition: opacity 0.3s;
+}
